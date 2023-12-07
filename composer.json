@@ -1,0 +1,10 @@
+{
+    "name": "waterhole/sso",
+    "description": "Helper to integrate with Waterhole SSO",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Waterhole\\Sso\\": "src/"
+        }
+    }
+}
