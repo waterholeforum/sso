@@ -1,6 +1,12 @@
 {
-  "devDependencies": {
-    "@prettier/plugin-php": "^0.22.1",
-    "prettier": "^3.1.1"
-  }
+    "scripts": {
+        "prettier": "prettier --write '**/*' --ignore-unknown",
+        "release": "release-it"
+    },
+    "devDependencies": {
+        "@prettier/plugin-php": "^0.22.1",
+        "@release-it/keep-a-changelog": "^5.0.0",
+        "prettier": "^3.1.1",
+        "release-it": "^17.0.1"
+    }
 }
