@@ -6,5 +6,8 @@
         "psr-4": {
             "Waterhole\\Sso\\": "src/"
         }
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.10"
     }
 }
