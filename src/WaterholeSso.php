@@ -10,8 +10,8 @@ final class WaterholeSso
 
     public function authenticate(
         PendingUser $user,
-        string $payload = null,
-        string $sig = null,
+        ?string $payload = null,
+        ?string $sig = null,
     ): never {
         $payload ??= $_GET['payload'] ?? null;
         $sig ??= $_GET['sig'] ?? null;
