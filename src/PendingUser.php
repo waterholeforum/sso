@@ -10,6 +10,7 @@ class PendingUser
         public ?string $name = null,
         public ?string $avatar = null,
         public ?array $groups = null,
+        public bool $forceName = false,
     ) {
     }
 }
