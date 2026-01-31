@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Add `PendingUser::forceName` property to allow forcing username during account creation
+
+### Fixed
+
+- Fix implicitly marking parameters as nullable
+
 ## [0.1.0] - 2023-12-23
 
 Initial release
