@@ -1,13 +1,10 @@
 {
     "packageManager": "pnpm@10.28.1",
     "scripts": {
-        "prettier": "prettier --write '**/*' --ignore-unknown",
         "release": "release-it"
     },
     "devDependencies": {
-        "@prettier/plugin-php": "^0.24.0",
         "@release-it/keep-a-changelog": "^7.0.0",
-        "prettier": "^3.8.1",
         "release-it": "^19.2.4"
     }
 }

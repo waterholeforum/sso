@@ -8,6 +8,11 @@
         }
     },
     "require-dev": {
+        "carthage-software/mago": "^1.43",
         "phpstan/phpstan": "^1.10"
+    },
+    "scripts": {
+        "check": "vendor/bin/mago fmt --check",
+        "fix": "vendor/bin/mago fmt"
     }
 }

@@ -7,9 +7,9 @@ final class Payload
     public const NONCE = 'nonce';
     public const RETURN_URL = 'returnUrl';
 
-    public function __construct(private readonly array $payload)
-    {
-    }
+    public function __construct(
+        private readonly array $payload,
+    ) {}
 
     public static function fromString(string $payload): Payload
     {

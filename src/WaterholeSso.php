@@ -4,9 +4,9 @@ namespace Waterhole\Sso;
 
 final class WaterholeSso
 {
-    public function __construct(private readonly string $secret)
-    {
-    }
+    public function __construct(
+        private readonly string $secret,
+    ) {}
 
     public function authenticate(
         PendingUser $user,
